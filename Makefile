@@ -8,6 +8,6 @@ lint:
 	pylint --disable=R,C hello.py --exit-zero
 
 test:
-	python -m pytest -vv test_hello.py
+	python -m pytest -vv *.py
 	
 all: install format lint test
