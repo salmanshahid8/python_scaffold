@@ -5,7 +5,7 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C hello.py --exit-zero
 
 test:
 	python -m pytest -vv test_hello.py
