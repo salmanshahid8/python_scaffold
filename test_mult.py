@@ -1,4 +1,4 @@
-from hello import mult
+from mult import mult
 
 
 def test_mult():
